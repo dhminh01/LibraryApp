@@ -1,0 +1,83 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ist/
+[Dd]ist/
+[Dd]ebug/
+[Dd]ebug-[Aa]nyCPU/
+[Dd]ebug-[Aa]nyCPU/
+[Dd]ebug-x64/
+[Dd]ebug-x86/
+[Dd]ebug-arm64/
+[Dd]ebug-arm/
+[Dd]ebug-linux-x64/
+[Dd]ebug-linux-arm/
+[Dd]ebug-macos-x64/
+[Dd]ebug-macos-arm/
+[Dd]ebug-windows-x64/
+[Dd]ebug-windows-arm/
+[Dd]ebug-windows-x86/
+
+# User-specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer logs
+*.cab
+*.msi
+*.msm
+*.msp
+
+# JetBrains Rider
+.idea/
+
+# User-specific files for Visual Studio for Mac
+.vscode/
+.idea/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Core secrets storage (for local development)
+secrets/
+
+# .NET Core Build Directory
+bin/
+obj/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# ASP.NET Core Environment Variables
+appsettings.Development.json
+appsettings.json
+
+# Logs
+logs/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# User-specific files for Rider and Visual Studio
+.idea/
+.vscode/
+
+*.csproj
