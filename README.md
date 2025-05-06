@@ -132,7 +132,7 @@ LibraryApp/
 
    _Optional, just for development:_
 
-   For development, modify `backend/src/LibraryApp.Api/appsettings.json`:
+   For development, modify `backend/src/LibraryApp.Api/appsettings.Development.json`:
 
    ```json
    {
