@@ -1,7 +1,6 @@
 import { createContext, useContext, useState, useEffect } from "react";
 import { jwtDecode } from "jwt-decode";
 
-// Define your user type with properties like name, email, address, etc.
 interface User {
   id: string;
   userName: string;

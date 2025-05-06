@@ -55,7 +55,9 @@ const BookManageTable: React.FC<BookTableProps> = ({
                   {book.author}
                 </td>
                 <td className="px-4 py-3 text-sm text-gray-700">
-                  {book.categoryName ?? "N/A"}
+                  <span className="inline-block px-2 py-1 rounded font-semibold bg-gray-300 text-gray-700 w-40 text-center leading-6 mb-1">
+                    {book.categoryName ?? "N/A"}
+                  </span>
                 </td>
                 <td className="px-4 py-3 text-sm text-gray-700">
                   {book.totalCopies}
@@ -63,7 +65,7 @@ const BookManageTable: React.FC<BookTableProps> = ({
                 <td className="px-4 py-3 text-sm text-gray-700">
                   <span
                     className={`px-2 py-1 rounded font-semibold ${
-                      book.availableCopies === 0 ? "bg-red-200" : "bg-blue-200"
+                      book.availableCopies === 0 ? "bg-red-200" : "bg-green-200"
                     }`}
                   >
                     {book.availableCopies} available
